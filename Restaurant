@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L’ALTRO CUCINA ITALIANA MODERNA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            background-image: url('https://example.com/hero-image.jpg'); /* Replace with real image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 4em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu, .about {
+            margin: 20px 0;
+        }
+        .menu h2, .about h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .menu img, .about img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="laltro_logo.png" alt="L'Altro Cucina Italiana Moderna Logo">
+        <h1>L’ALTRO CUCINA ITALIANA MODERNA</h1>
+        <p>Experience Modern Italian Cuisine</p>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to L’ALTRO</h1>
+        <p>Discover the taste of modern Italy</p>
+    </div>
+    <div class="container">
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <img src="https://example.com/menu-image.jpg" alt="Delicious Italian Food"> <!-- Replace with real image -->
+            <p>Indulge in our carefully crafted dishes, where tradition meets innovation. From classic pasta to modern interpretations, every bite is a celebration of Italian cuisine.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <img src="https://example.com/about-image.jpg" alt="Restaurant Interior"> <!-- Replace with real image -->
+            <p>At L’ALTRO CUCINA ITALIANA MODERNA, we are passionate about bringing the essence of Italy to your table. Our chefs blend traditional recipes with modern techniques to create a unique dining experience.</p>
+        </section>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: +853 62018671</p>
+        <p>Email: <a href="mailto:jonathan.dlc.fic@gmail.com">jonathan.dlc.fic@gmail.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 L’ALTRO CUCINA ITALIANA MODERNA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
